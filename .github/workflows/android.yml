@@ -31,9 +31,9 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v3
 
-      # Generate a Gradle Wrapper for Gradle 8.5 in the workspace
+      # Generate a Gradle Wrapper for Gradle 8.7 in the workspace
       - name: Generate Gradle Wrapper
-        run: gradle wrapper --gradle-version 8.5
+        run: gradle wrapper --gradle-version 8.7
 
       # Now that the wrapper exists, validate it
       - name: Validate Gradle Wrapper
